@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>工作者</title>
+</head>
+<body>
+
+<url>
+
+    {% for jober in jobers %}
+
+    <li>
+        id:{{ jober.id }}, 姓名: {{ jober.name }}, 年龄: {{ jober.age }}
+    </li>
+
+    {% endfor %}
+
+</url>
+
+</body>
+</html>

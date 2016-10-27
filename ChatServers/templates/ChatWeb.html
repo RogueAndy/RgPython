@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>接受聊天消息列表</title>
+</head>
+<body>
+
+<url>
+    {% for chatmessage in messages %}
+    <li>
+        id:{{ chatmessage.sender }}, 消息: {{ chatmessage.content }}
+    </li>
+    {% endfor %}
+</url>
+
+</body>
+</html>

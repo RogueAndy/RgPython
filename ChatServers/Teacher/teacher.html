@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>教师</title>
+</head>
+<body>
+
+<url>
+
+    {% for teacher in teachers %}
+
+    <li>
+        id:{{ teacher.id }}, 姓名: {{ teacher.name }}, 年龄: {{ teacher.age }}
+    </li>
+
+    {% endfor %}
+
+</url>
+
+</body>
+</html>
