@@ -129,19 +129,6 @@ def pageinurl(url_parameter):
 
     return urllists
 
-
-if __name__ == "__main__":
-
-    # url = "http://www.cocoachina.com"
-    # urllists = pageinurl(url)
-    # print('------传参数前显示的数组:' + str(len(urllists)))
-    # connect = ConnectMysql()
-    # connect.insertSql(urllists)
-
-    connect = ConnectMysql()
-    connect.querySql()
-
-
 def convert_to_builtin_type(obj):
     print('default(', repr(obj), ')')
     d = {}
